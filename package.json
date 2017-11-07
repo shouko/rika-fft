@@ -1,0 +1,24 @@
+{
+  "name": "rika-fft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shouko/rika-fft.git"
+  },
+  "author": "shouko <imshouko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shouko/rika-fft/issues"
+  },
+  "homepage": "https://github.com/shouko/rika-fft#readme",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.6",
+    "http": "0.0.0"
+  }
+}
