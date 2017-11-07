@@ -19,7 +19,7 @@ http.createServer(function (req, res) {
   tmp_ctx.font = font
   console.log('width', tmp_ctx.measureText(text).width, 'text', text)
   
-  const canvas = createCanvas(tmp_ctx.measureText(text).width + padding * 2, size + padding * 2)
+  const canvas = createCanvas(tmp_ctx.measureText(text).width + padding * 2, size + padding * 4)
   const ctx = canvas.getContext('2d')
   
   ctx.font = font
